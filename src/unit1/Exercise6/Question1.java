@@ -19,6 +19,8 @@ public class Question1 {
 		 {
 			{pay += (pay * 0.01);
 			System.out.println("Pay score is: " + pay);
+			
+			input.close();
 			}
 		}
 	}

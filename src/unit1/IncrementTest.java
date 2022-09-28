@@ -16,6 +16,7 @@ public class IncrementTest {
 		
 		System.out.println("Original Number + 1 = " + num);
 		
+		input.close();
 	}
 
 }

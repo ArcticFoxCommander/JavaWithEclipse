@@ -30,6 +30,8 @@ public class Question1 {
 		ddc = gas + pf + t; // Adding fuel, parking fees, and tolls together.
 		
 		System.out.println("The daily driving cost is: $" + ddc);
+		
+		input.close();
 	}
 
 }

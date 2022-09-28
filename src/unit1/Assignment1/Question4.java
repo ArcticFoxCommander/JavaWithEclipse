@@ -21,6 +21,7 @@ public class Question4 {
 		
 		System.out.println(interest);
 		
+		input.close();
 	}
 
 }

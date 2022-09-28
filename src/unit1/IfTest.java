@@ -15,6 +15,8 @@ public class IfTest {
 			
 		if (number % 2 == 0)
 			System.out.println("HiEven");
+		
+		input.close();
 	}
 
 }

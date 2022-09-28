@@ -14,6 +14,8 @@ public class AssignmentTest {
 		digit += digit;
 		
 		System.out.println("Your number doubled is: " + digit);
+		
+		input.close();
 	}
 
 }

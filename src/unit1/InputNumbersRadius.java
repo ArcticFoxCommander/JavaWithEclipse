@@ -17,6 +17,8 @@ public class InputNumbersRadius {
 		double area = radius * radius * PI;
 		// Display result
 		System.out.println("The area for the circle of radius " + radius +" is " + area);
+		
+		input.close();
 	}
 
 }
