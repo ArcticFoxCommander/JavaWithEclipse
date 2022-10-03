@@ -4,10 +4,13 @@
 
 Random Scripts
 
+**Assignments**
+
 Assignment1 - Question (1-4)
 
 Assignment2 - Question (1-3)
 
+**Exercises**
 
 Exercise2 - Question (6, 7, 10, 16, and 17)
 
