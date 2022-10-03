@@ -8,7 +8,7 @@ public class Question12 {
 		// TODO Auto-generated method stub
 		Scanner input = new Scanner(System.in);
 				
-		System.out.println("Enter a three digit number: ");
+		System.out.print("Enter a three digit number: ");
 		int number = input.nextInt();
 		
 		int first = number / 100;
