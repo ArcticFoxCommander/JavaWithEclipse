@@ -6,6 +6,6 @@ public class Question3 {
 		// TODO Auto-generated method stub
 		System.out.println("\\");
 		System.out.println("\"");
+		
 	}
-
 }
