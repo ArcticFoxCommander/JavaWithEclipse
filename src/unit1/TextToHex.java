@@ -4,7 +4,7 @@ public class TextToHex {
 
 	public static void main(String[] args) {
 		
-	        String input = "Hello Littie, What did you want to talk about?";
+	        String input = "how are you";
 	        System.out.println("input: " + input);
 
 	        String hex = convertStringToHex(input);
@@ -12,7 +12,7 @@ public class TextToHex {
 
 	        String result = convertHexToString(hex);
 	        System.out.println("result: " + result);
-
+	        			
 	    }
 
 	    // Char -> Decimal -> Hex
