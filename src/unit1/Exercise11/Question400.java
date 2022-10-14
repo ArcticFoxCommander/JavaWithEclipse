@@ -26,7 +26,7 @@ public class Question400 {
 
 		System.out.println(text + " is " + ((isValid) ? "a valid " : "an invalid ")
 				+ "social security number");
-		
+
 		input.close();
 	}
 
