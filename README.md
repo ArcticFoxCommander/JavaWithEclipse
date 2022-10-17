@@ -32,7 +32,7 @@ Exercise9 - Question (1-7)
 
 Exercise10 - Question (1, 3, 8, and 9)
 
-Exercise11 - Question (1) [100-600]
+Exercise11 - Question (1) sub [100-600]
 
 ## Unit 2
 
@@ -42,4 +42,4 @@ Random Scripts
 
 **Exercises:**
 
-Exercise 1 - Question (1, 3-5) 
+Exercise 1 - Question (1, and 3-5) 
