@@ -1,16 +1,18 @@
-# Unit 1 Eclipse IDE
+# Eclipse IDE
+
+## Unit 1
 
 **Contains:**
 
 Random Scripts
 
-**Assignments**
+**Assignments:**
 
 Assignment1 - Question (1-4)
 
 Assignment2 - Question (1-3)
 
-**Exercises**
+**Exercises:**
 
 Exercise2 - Question (6, 7, 10, 16, and 17)
 
@@ -31,3 +33,13 @@ Exercise9 - Question (1-7)
 Exercise10 - Question (1, 3, 8, and 9)
 
 Exercise11 - Question (1) [100-600]
+
+## Unit 2
+
+**Contains:**
+
+Random Scripts
+
+**Exercises:**
+
+Exercise 1 - Question (1, 3-5) 
