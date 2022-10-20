@@ -1,4 +1,4 @@
-# Eclipse IDE
+# **Eclipse IDE**
 
 ## Unit 1
 
@@ -42,4 +42,4 @@ Random Scripts
 
 **Exercises:**
 
-Exercise 1 - Question (1, and 3-5) 
+Exercise 1 - Question (1, 3-5, and 9-11) 
