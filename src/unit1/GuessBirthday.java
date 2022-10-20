@@ -92,6 +92,8 @@ public class GuessBirthday {
 				day += 16;
 
 			System.out.println("\nYour birth date is " + day + "!");
+			
+			input.close();
 	}
 
 }
