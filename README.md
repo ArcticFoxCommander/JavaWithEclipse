@@ -42,4 +42,6 @@ Random Scripts
 
 **Exercises:**
 
-Exercise 1 - Question (1, 3-5, and 9-11) 
+Exercise1 - Question (1, 3-5, and 9-11)
+
+Exercise2 - Question (1, 2, and 7) 
