@@ -8,9 +8,10 @@ public class Question7 {
 		
 		do
 		{
-			System.out.println(counter);
-			counter +=1;
+			System.out.println(counter * counter);
+			counter +=2;
 		} while (counter <= 15);
+		
 	}
 
 }
