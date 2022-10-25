@@ -6,7 +6,7 @@ public class LittieSaidThisCodeWasFun {
 		// TODO Auto-generated method stub
 		int i = 2;
 		while (i!=0) {
-		  System.out.println(i*=i);
+			System.out.println(i*=i);
 		}
 	}
 
