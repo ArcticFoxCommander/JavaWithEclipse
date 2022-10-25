@@ -1,7 +1,5 @@
 package unit1.Exercise9;
 
-import java.util.Scanner;
-
 public class Question4 {
 
 	public static void main(String[] args) {
