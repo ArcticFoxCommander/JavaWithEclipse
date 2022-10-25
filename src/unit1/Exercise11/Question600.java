@@ -21,7 +21,7 @@ public class Question600 {
 		
 		double gp = hw * pr;
 		
-		
+		input.close();
 	}
 
 }
