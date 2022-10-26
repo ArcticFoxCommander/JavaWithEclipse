@@ -48,4 +48,4 @@ Random Scripts
 
 Exercise1 - Question (1, 3-5, and 9-11)
 
-Exercise2 - Question (1, 2, 6, and 7) 
+Exercise2 - Question (1, 2, and 6-8) 
