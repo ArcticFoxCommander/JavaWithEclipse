@@ -4,12 +4,14 @@ public class Question7 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		int counter = 1;
+		int counter = 1; int p = 1;
 		
 		do
 		{
-			System.out.println(counter * counter);
+			p = counter *p;
 			counter +=2;
+			System.out.println(p);
+			
 		} while (counter <= 15);
 		
 	}
