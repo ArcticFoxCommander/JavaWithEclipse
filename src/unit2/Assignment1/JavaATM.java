@@ -51,41 +51,38 @@ public class JavaATM {
 				int withamt = input.nextInt();
 				// Input withdrawal amount.
 				totalwith += withamt;
-				// Withdrawal fail attempt storing.
-				if (withamt >= 100 && withamt / 100 <= ihundred) {
-					// Checker for the 100 note. 
-					int remover = (int) Math.floor(withamt / 100);
-					// Declare remover. Use Math.floor which truncates the division.
-					withamt -= remover * 100;
-					// Make a whole number
-					rhundred = ihundred - remover;
-					// Remainder of the hundred.
-				}
-
-				if (withamt >= 50 && withamt / 50 <= ififty) {
-					int remover = (int) Math.floor(withamt / 50);
-					withamt -= remover * 50;
-					rfifty = ififty - remover;
-				}
-
-				if (withamt >= 20 && withamt / 20 <= itwenty) {
-					int remover = (int) Math.floor(withamt / 20);
-					withamt -= remover * 20;
-					rtwenty= itwenty - remover;
-				}
-
-				if (withamt >= 10 && withamt / 10 <= iten) {
-					int remover = (int) Math.floor(withamt / 10);
-					withamt -= remover * 10;
-					rten = iten - remover;
-				}
-
-				if (withamt >= 5 && withamt / 5 <= ifive) {
-					int remover = (int) Math.floor(withamt / 5);
-					withamt -= remover * 5;
-					rfive = ifive - remover;
-				}
-
+				
+				if (withamt >= 100 && ihundred > 1) {
+                    int remover = Math.min((int) Math.floor(withamt / 100), ihundred);
+                    withamt -= remover * 100;
+                    rhundred -= remover;
+                }
+				
+				if (withamt >= 50 && ififty > 1) {
+                    int remover = Math.min((int) Math.floor(withamt / 50), ififty);
+                    withamt -= remover * 50;
+                    rfifty -= remover;
+                }
+				
+				if (withamt >= 20 && itwenty > 1) {
+                    int remover = Math.min((int) Math.floor(withamt / 20), itwenty);
+                    withamt -= remover * 20;
+                    rtwenty -= remover;
+                }
+				
+				if (withamt >= 10 && iten > 1) {
+                    int remover = Math.min((int) Math.floor(withamt / 10), iten);
+                    withamt -= remover * 10;
+                    rten -= remover;
+                }
+				
+				if (withamt >= 5 && ifive > 1) {
+                    int remover = Math.min((int) Math.floor(withamt / 5), ifive);
+                    withamt -= remover * 5;
+                    rfive -= remover;
+                }
+	
+				
 				if (withamt > 0) {
 					System.out.println("There are not enough bills to fufill this withdrawal request.");
 					// Cannot withdraw fail message.
@@ -94,7 +91,7 @@ public class JavaATM {
 
 				}
 				else {
-					ihundred = rhundred; ififty = rfifty; itwenty = rtwenty; iten = rten; ifive = rfive;
+					ihundred += rhundred; ififty += rfifty; itwenty += rtwenty; iten += rten; ifive += rfive;
 					ibal = (rhundred * 100) + (rfifty * 50) + (rtwenty * 20) + (rten * 10) + (rfive * 5);
 					System.out.println("Current Status: " + rhundred + " " + rfifty + " " + rtwenty + " " + rten + " " + rfive + ". Balance: $" + ibal);
 					// Print status & balance.
