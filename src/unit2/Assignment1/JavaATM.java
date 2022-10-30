@@ -51,38 +51,43 @@ public class JavaATM {
 				int withamt = input.nextInt();
 				// Input withdrawal amount.
 				totalwith += withamt;
-				
+
 				if (withamt >= 100 && ihundred > 1) {
-                    int remover = Math.min((int) Math.floor(withamt / 100), ihundred);
-                    withamt -= remover * 100;
-                    rhundred -= remover;
-                }
-				
+					// Checker for the 100 note.
+					int remover = Math.min((int) Math.floor(withamt / 100), ihundred);
+					// Declare remover. Use Math.min to return the minimum of the two numbers. 
+					// Use Math.floor which truncates the division.
+					withamt -= remover * 100;
+					// Make a whole number
+					rhundred -= remover;
+					// Remainder of the hundred.
+				}
+
 				if (withamt >= 50 && ififty > 1) {
-                    int remover = Math.min((int) Math.floor(withamt / 50), ififty);
-                    withamt -= remover * 50;
-                    rfifty -= remover;
-                }
-				
+					int remover = Math.min((int) Math.floor(withamt / 50), ififty);
+					withamt -= remover * 50;
+					rfifty -= remover;
+				}
+
 				if (withamt >= 20 && itwenty > 1) {
-                    int remover = Math.min((int) Math.floor(withamt / 20), itwenty);
-                    withamt -= remover * 20;
-                    rtwenty -= remover;
-                }
-				
+					int remover = Math.min((int) Math.floor(withamt / 20), itwenty);
+					withamt -= remover * 20;
+					rtwenty -= remover;
+				}
+
 				if (withamt >= 10 && iten > 1) {
-                    int remover = Math.min((int) Math.floor(withamt / 10), iten);
-                    withamt -= remover * 10;
-                    rten -= remover;
-                }
-				
+					int remover = Math.min((int) Math.floor(withamt / 10), iten);
+					withamt -= remover * 10;
+					rten -= remover;
+				}
+
 				if (withamt >= 5 && ifive > 1) {
-                    int remover = Math.min((int) Math.floor(withamt / 5), ifive);
-                    withamt -= remover * 5;
-                    rfive -= remover;
-                }
-	
-				
+					int remover = Math.min((int) Math.floor(withamt / 5), ifive);
+					withamt -= remover * 5;
+					rfive -= remover;
+				}
+
+
 				if (withamt > 0) {
 					System.out.println("There are not enough bills to fufill this withdrawal request.");
 					// Cannot withdraw fail message.
