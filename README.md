@@ -52,4 +52,4 @@ Exercise1 - Question (1, 3-5, and 9-11)
 
 Exercise2 - Question (1, 2, and 6-8)
 
-Exercise3 - Question (1-3, and 15)
+Exercise3 - Question (1-3, 5, 6, and 15)
