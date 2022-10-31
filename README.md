@@ -44,8 +44,12 @@ Pin Checker
 
 Random Scripts
 
+JavaATM
+
 **Exercises:**
 
 Exercise1 - Question (1, 3-5, and 9-11)
 
-Exercise2 - Question (1, 2, and 6-8) 
+Exercise2 - Question (1, 2, and 6-8)
+
+Exercise3 - Question (1, 2, and 15)
