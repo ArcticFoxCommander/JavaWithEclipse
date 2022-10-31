@@ -14,10 +14,13 @@ public class Question3 {
 			System.out.print("Input number: ");
 			number = input.nextInt();
 			sum += number;
+			
 		}
 		
+		input.close();
 		System.out.println("Sum is " + sum);
 		System.out.println("Count is " + count);
 	}
 
 }
+ 
