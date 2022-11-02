@@ -4,11 +4,9 @@ public class Question12 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		int i = 0;
-		do {
-		i += 3;
-		System.out.println(i);
-		} while (i <36);
+	for (int count = 3; count <=36; count +=3) {
+		System.out.println(count);
+		}
 	}
 
 }
