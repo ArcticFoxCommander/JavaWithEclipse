@@ -4,7 +4,7 @@ public class Question17 {
 
 	public static void main(String[] args) {
 		long factorial = 0;
-		System.out.println("Number to Factorial\n");
+		System.out.println("Number to Factorial\n"); // Text display
 		for (int i = 1; i <= 20; i++) {
 			factorial = 1;
 			for (int j = 1; j <= i; j++) {
