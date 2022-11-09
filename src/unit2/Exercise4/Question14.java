@@ -4,6 +4,7 @@ public class Question14 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		System.out.println("The perfect numbers under 10000 are: \n");
 		int sum;
 		// Declare i from 1 - 10000.
 		for (int i = 1; i < 10000; i++) {
