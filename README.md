@@ -46,10 +46,16 @@ Random Scripts
 
 JavaATM
 
+Multiplication Table
+
 **Exercises:**
 
 Exercise1 - Question (1, 3-5, and 9-11)
 
 Exercise2 - Question (1, 2, and 6-8)
 
-Exercise3 - Question (1-3, 5, 6, 9-13, 15-17, and 19)
+Exercise3 - Question (1-3, 5, 6, 9-13, 15-19)
+
+Exercise4 - Question (14)
+
+Exercise5 - Question (1) 
