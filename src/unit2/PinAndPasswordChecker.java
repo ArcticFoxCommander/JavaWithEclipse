@@ -29,8 +29,9 @@ public class PinAndPasswordChecker {
 			break;
 		default:
 			System.out.println("Incorrect. Try again");
-			
+
 			input.close();
+
 		}
 	}
 }
