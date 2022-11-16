@@ -15,7 +15,7 @@ public class PinChecker {
 					"Enter your pin: ");
 			pin = input.nextInt();
 		} while (pin != 1234);
-
+		
 		System.out.println("The pin is correct");
 
 		input.close();
