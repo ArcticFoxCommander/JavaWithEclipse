@@ -58,4 +58,14 @@ Exercise3 - Question (1-3, 5, 6, 9-13, 15-19)
 
 Exercise4 - Question (14)
 
-Exercise5 - Question (1-3) 
+Exercise5 - Question (1-5)
+
+## Unit 3
+
+**Contains:**
+
+Random Scripts
+
+**Exercises:**
+
+Exercise1 - Question (9) 
