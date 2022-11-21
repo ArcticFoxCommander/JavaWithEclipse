@@ -25,11 +25,13 @@ public class Question5 {
 			else {
 				System.out.println(first + " and " + second + " have no common prefix.\nTry again.");
 				continue;
-			}
-		} while (i == 0);
-
+			}	
+		} while (i == 0);	
 		input.close();
 	}
 
 }
+
+
+
 
