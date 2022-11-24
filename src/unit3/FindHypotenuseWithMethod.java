@@ -6,15 +6,19 @@ public class FindHypotenuseWithMethod {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		double z;
+		double z = 0;
 		Scanner input = new Scanner(System.in);
 		System.out.println("enter side x: ");
 		double x = input.nextDouble();
 		System.out.println("enter side y: ");
 		double y = input.nextDouble();
-		z = Math.sqrt((x*x)+(y*y));
-		System.out.println("the hypotenuse is: "+z);
+		System.out.println("the hypotenuse is: " + z);
 		input.close();
+	}
+	
+	public static double hyp(double x, double y) {
+		double z = 0;
+		return z = Math.sqrt((x*x) + (y*y));
 	}
 
 }
