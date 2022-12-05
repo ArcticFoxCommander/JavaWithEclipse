@@ -27,7 +27,7 @@ public class Question2_V2 {
 	}
 
 	public static int numberOfDaysInAYear(int year) {
-		if (leap(year) == true) 
+		if (leap(year) == true)
 			return 366;
 		else
 			return 365;
