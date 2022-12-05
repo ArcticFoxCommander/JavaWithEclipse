@@ -14,7 +14,7 @@ public class Question2 {
 		
 		for (int year = 2000; year <= 2020; year++) {
 		
-		numberOfDaysInAYear(year);
+		
 		
 		if (leap(year) == false)
 		System.out.println("The year " + year + " has " + numberOfDaysInAYear(year) + " days. It is not a leap year.");
