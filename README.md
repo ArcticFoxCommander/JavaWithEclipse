@@ -68,4 +68,6 @@ Random Scripts
 
 **Exercises:**
 
-Exercise1 - Question (8, 9, 11, and 12) 
+Exercise1 - Question (8-13) 
+
+Exercise2 - Question (2-5)
