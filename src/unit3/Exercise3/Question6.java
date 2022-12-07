@@ -14,6 +14,7 @@ public class Question6 {
 		double c = input.nextDouble();
 		
 		displaySortedNumbers(a, b, c);
+		input.close();
 	}
 	
 	public static void displaySortedNumbers(double num1, double num2, double num3) {
