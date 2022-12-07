@@ -17,6 +17,7 @@ public class Question7 {
 		else {
 			System.out.println("Invalid Password.");
 		}
+		input.close();
 	}
 
 	public static boolean isValid(String s) {
