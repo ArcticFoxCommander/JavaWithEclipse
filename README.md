@@ -78,4 +78,4 @@ Exercise1 - Question (8-13)
 
 Exercise2 - Question (2-5)
 
-Exercise3 - Question (6-7)
+Exercise3 - Question (6-8)
