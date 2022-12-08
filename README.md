@@ -66,6 +66,12 @@ Exercise5 - Question (1-5)
 
 Random Scripts
 
+Calendar Printer
+
+Reading and Writing Data
+
+Methods
+
 **Exercises:**
 
 Exercise1 - Question (8-13) 
