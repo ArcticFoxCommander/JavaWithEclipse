@@ -72,6 +72,14 @@ Reading and Writing Data
 
 Methods
 
+Java Credit Card Validator
+
+**Assignments:**
+
+Assignment1 - Question (1-4)
+
+Assignment2 - Credit Card Validator
+
 **Exercises:**
 
 Exercise1 - Question (8-13) 
@@ -79,3 +87,9 @@ Exercise1 - Question (8-13)
 Exercise2 - Question (2-5)
 
 Exercise3 - Question (6-8)
+
+## Unit 4
+
+**Contains:**
+
+Arrays
