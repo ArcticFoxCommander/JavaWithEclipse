@@ -13,15 +13,14 @@ public class Question15 {
 		while (counter != 0) {
 			array[counter]++;
 			counter = input.nextInt();
-
-			for(int index = 0; index <= array.length; index++)
-				if (array[index] > 1)
-					System.out.printf("%3d occurs %d times.\n", index, array[index]);
-				else
-					if (array[index] == 1)
-						System.out.printf("%3d occurs %d time.", index, array[index]);
 		}
+		for(int index = 0; index < array.length; index++)
+			if (array[index] > 1)
+				System.out.printf("%3d occurs %d times.\n", index, array[index]);
+			else
+				if (array[index] == 1)
+					System.out.printf("%3d occurs %d time.\n", index, array[index]);
 	}
-
 }
+
 
