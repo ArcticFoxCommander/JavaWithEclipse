@@ -54,7 +54,7 @@ Exercise1 - Question (1, 3-5, and 9-11)
 
 Exercise2 - Question (1, 2, and 6-8)
 
-Exercise3 - Question (1-3, 5, 6, 9-13, 15-19)
+Exercise3 - Question (1-3, 5, 6, 9-13, and 15-19)
 
 Exercise4 - Question (14)
 
@@ -93,3 +93,7 @@ Exercise3 - Question (6-8)
 **Contains:**
 
 Arrays
+
+**Exercises:**
+
+Exercise1 - Question (3, and 14-17)
