@@ -94,6 +94,8 @@ Exercise3 - Question (6-8)
 
 Arrays
 
+Calculator
+
 **Exercises:**
 
 Exercise1 - Question (3, and 14-17)
