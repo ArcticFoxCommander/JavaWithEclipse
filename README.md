@@ -97,3 +97,11 @@ Arrays
 **Exercises:**
 
 Exercise1 - Question (3, and 14-17)
+
+Exercise2 - Question (3, 5, and 8-12)
+
+Exercise3 - Question (4 and 6)
+
+Exercise4 - Question (4 and 5)
+
+Exercise5 - Question ()
