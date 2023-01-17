@@ -56,4 +56,3 @@
    Ability to access the **/massban** command.
    
    Ability to add and remove **fake invites**.
-}
