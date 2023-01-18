@@ -15,7 +15,7 @@ public class Question6 {
 		
 		int[] distinctNumbers = eliminateDuplicates(numbers);
 
-		System.out.print("The distinct numbers are:")
+		System.out.print("The distinct numbers are:");
 		for (int e: distinctNumbers) {
 			if (e > 0)
 				System.out.print(" " + e);
