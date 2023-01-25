@@ -107,3 +107,5 @@ Exercise3 - Question (4 and 6)
 Exercise4 - Question (4 and 5)
 
 Exercise5 - Question (6 and 8)
+
+Exercise6 - Question (9 and 10)
