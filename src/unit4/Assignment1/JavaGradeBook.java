@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class JavaGradeBook {
 	public static void main(String[] args) {
-	
+		System.out.println("w");
 	}
 	public static void processingData() throws Exception {
 		// TODO Auto-generated method stub
@@ -16,20 +16,30 @@ public class JavaGradeBook {
 				
 				int count = 0;
 				
-				
-				
+				double[] garray = new double[3];
+				double[] harray = new double[4];
 				double[] quizarray = new double[3];
 				double[] exercisearray = new double[4];
 				
 				// Read data from a file
 				while (input.hasNext()) {
 					
-					for (int f = 0; f < e++)
+					double n = input.nextDouble();
+					double p = input.nextDouble();
+					double m = input.nextDouble();
+					System.out.println(n + " " + p + " " + m);
 					
-					for (int g = 0; g <; f++)
-						
-					for (int h = 0; h <; h++)
-					String name = input.next();
+					for (int g = 0; g < garray.length; g++)
+						garray[g] = input.nextDouble();
+					
+					for (int h = 0; h < harray.length; h++)
+						harray[h] = input.nextDouble();
+					
+					for (int s = 0; s < sd.length; s++)
+						String student = input.next();
+					
+						sd[s] = student();
+					
 					for (int i = 0; i < quizarray.length; i++)
 					quizarray[i] = input.nextDouble();
 					for (int j = 0; j < exercisearray.length; j++)
@@ -38,6 +48,8 @@ public class JavaGradeBook {
 					for (int k = 0; k < quizarray.length && k < exercisearray.length; k++)
 						System.out.println(quizarray[k] + " " + exercisearray[k]);
 				}
+				
+				
 
 				// Close the file
 				input.close();
